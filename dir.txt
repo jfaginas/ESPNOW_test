@@ -1,0 +1,50 @@
+.
+├── dir.txt
+├── Master
+│   ├── lib
+│   │   ├── EspNowInterface
+│   │   │   ├── EspNowInterface.cpp
+│   │   │   └── EspNowInterface.h
+│   │   ├── MsgProtocol
+│   │   │   ├── MsgProtocol.cpp
+│   │   │   └── MsgProtocol.h
+│   │   └── PeerTable
+│   │       └── Peers.h
+│   ├── platformio.ini
+│   └── src
+│       └── main.cpp
+├── README.md
+├── Slave1
+│   ├── lib
+│   │   ├── EspNowInterface
+│   │   │   ├── EspNowInterface.cpp
+│   │   │   └── EspNowInterface.h
+│   │   ├── MsgProtocol
+│   │   │   ├── MsgProtocol.cpp
+│   │   │   └── MsgProtocol.h
+│   │   ├── SlaveConfig
+│   │   │   └── SlaveConfig.h
+│   │   └── SlaveController
+│   │       ├── SlaveController.cpp
+│   │       └── SlaveController.h
+│   ├── platformio.ini
+│   └── src
+│       └── main.cpp
+└── Slave2
+    ├── lib
+    │   ├── EspNowInterface
+    │   │   ├── EspNowInterface.cpp
+    │   │   └── EspNowInterface.h
+    │   ├── MsgProtocol
+    │   │   ├── MsgProtocol.cpp
+    │   │   └── MsgProtocol.h
+    │   ├── SlaveConfig
+    │   │   └── SlaveConfig.h
+    │   └── SlaveController
+    │       ├── SlaveController.cpp
+    │       └── SlaveController.h
+    ├── platformio.ini
+    └── src
+        └── main.cpp
+
+20 directories, 27 files
